@@ -1,16 +1,6 @@
 /* Layout */
 
-.firma {
-  background-color: #fcb529;
-  color: white;
-  padding: .2rem;
-  position: absolute;
-  top: 0;
-  right: calc(50% - 64px);
-}
-
-body {
-  background-color: #fcb529;
+.menu {
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -19,45 +9,54 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-body div {
-  width: 100%;
-}
-
 .borde-por-la-izquierda {
   border-left: 2px #222 solid;
 }
 
 .canciones-title,
 .jazz-title {
+  background-color: #fcb529;
   text-align: center;
   height: 100vh;
   width: 100%;
 }
 
+.canciones-title:hover,
+.jazz-title:hover {
+  background-color: #ba8927;
+  transition: background-color 2s;
+}
+
 /* Opciones */
+
+.firma {
+  background-color: #fcb529;
+  color: white;
+  padding: .2rem;
+  position: absolute;
+  top: 20px;
+  right: 50%;
+  transform: translateX(50%);
+}
 
 .canciones-title a h1,
 .jazz-title a h1 {
   margin-top: 45vh;
   margin-bottom: 0;
-  color: #222;
   font-size: calc(2rem + 2vw);
-  transition: .5s;
 }
 
-.canciones-title a h1:hover,
-.jazz-title a h1:hover {
-  color: black;
-  font-size: calc(2.5rem + 2vw);
-  transition: .5s;
+.canciones-title a h3,
+.jazz-title a h3 {
+  font-size: calc(.4rem + 2vw);
 }
 
-.canciones-title a h1:hover {
-  transform: rotate(-5deg);
-  transition: .5s;
+.canciones-title a,
+.jazz-title a {
+  color: #222;
 }
 
-.jazz-title a h1:hover {
-  transform: rotate(5deg);
-  transition: .5s;
+.canciones-title a:hover,
+.jazz-title a:hover {
+  color: white;
 }
