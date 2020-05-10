@@ -1,0 +1,38 @@
+/* Layout */
+
+.firma {
+  background-color: #fcb529;
+  color: white;
+  padding: .2rem;
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+/* Enlaces */
+
+.enlaces {
+  position: absolute;
+  top: 25%;
+  left: calc(30vw);
+  list-style-type: none;
+  font-size: calc(1.5rem + 2vw);
+}
+
+.enlaces a:hover {
+  color: black;
+  font-size: calc(2rem + 2vw);
+  transition: .5s;
+}
+
+@media only screen and (max-width: 700px) {
+  .enlaces {
+    left: calc(15vw);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .enlaces {
+    left: calc(5vw);
+  }
+}
