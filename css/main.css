@@ -9,8 +9,7 @@
 }
 
 h1 { font-size: calc(3rem + 2vw); }
-h2 { font-size: calc(1.5rem + 2vw);; }
-h3 { font-size: calc(1rem + 2vw); }
+a { text-decoration: none; }
 
 /* Reset */
 
@@ -24,45 +23,54 @@ html, body {
 
 /* Layout */
 
-.dos-mitades {
-  display: grid;
+body {
+  background-color: #fcb529;
   width: 100vw;
   height: 100vh;
-}
-
-.dos-mitades {
+  display: grid;
+  grid-gap: 0px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100vh;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.dos-mitades section {
+body div {
   width: 100%;
 }
 
-.dos-mitades section.canciones,
-.dos-mitades section.canciones .mitad a {
-  text-decoration: none;
-  background-color: #fcb529;
-  color: #222;
-}
-
-.dos-mitades section.jazz,
-.dos-mitades section.jazz .mitad a {
-  text-decoration: none;
-  background-color: #222;
-  color: #fcb529;
-}
-
-.dos-mitades .mitad {
-  padding-left: 15%;
-  padding-top: 30vh;
-}
-
-.dos-mitades .mitad h1 {
+.canciones-title h1,
+.jazz-title h1 {
   margin-bottom: 0;
 }
 
-.dos-mitades section .mitad a.accion {
+.canciones-title,
+.canciones-link,
+.jazz-title,
+.jazz-link {
+  padding-left: 35%;
+}
+
+.canciones-title a,
+.canciones-link a,
+.jazz-title a,
+.jazz-link a {
+  color: #222;
+}
+
+.canciones-link a,
+.jazz-link a {
   font-size: 2rem;
   color: white;
+}
+
+.borde-por-la-izquierda {
+  border-left: 2px #222 solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .canciones-title,
+  .canciones-link,
+  .jazz-title,
+  .jazz-link {
+    padding-left: 15%;
+  }
 }
