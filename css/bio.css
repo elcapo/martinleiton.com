@@ -1,0 +1,37 @@
+/* Layout */
+
+body {
+  background-color: #fcb529;
+}
+
+.bio-container {
+  display: table;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.bio-aligner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bio {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.bio p {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.inicio {
+  color: white;
+  padding: .2rem;
+  position: absolute;
+  top: 20px;
+  right: 50%;
+  transform: translateX(50%);
+}

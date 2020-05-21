@@ -21,22 +21,28 @@
   width: 100%;
 }
 
-.canciones-title:hover,
-.jazz-title:hover {
-  background-color: #ba8927;
-  transition: background-color 2s;
-}
-
 /* Opciones */
 
-.firma {
+.inicio {
+  border-radius: 1rem;
   background-color: #fcb529;
   color: white;
-  padding: .2rem;
+  padding: .4rem;
   position: absolute;
   top: 20px;
   right: 50%;
   transform: translateX(50%);
+}
+
+.accion:hover .inicio {
+  background-color: #362e1e;
+  transition: background-color 1s;
+}
+
+.canciones-title:hover,
+.jazz-title:hover {
+  background-color: #362e1e;
+  transition: background-color 1s;
 }
 
 .canciones-title a h1,
@@ -56,7 +62,7 @@
   color: #222;
 }
 
-.canciones-title a:hover,
-.jazz-title a:hover {
+.canciones-title:hover a,
+.jazz-title:hover a {
   color: white;
 }
