@@ -21,6 +21,12 @@
   width: 100%;
 }
 
+.canciones-title h3,
+.jazz-title h3 {
+  padding-top: 2rem;
+  color: gray;
+}
+
 /* Opciones */
 
 .inicio {
