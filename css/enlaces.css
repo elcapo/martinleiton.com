@@ -1,11 +1,11 @@
 /* Layout */
 
 body {
-  background-color: #fcb529;
+  background-color: white;
 }
 
 .inicio {
-  color: white;
+  color: #fcb529;
   padding: .2rem;
   position: absolute;
   top: 20px;
@@ -31,5 +31,5 @@ body {
 }
 
 .enlaces li a:hover {
-  color: white;
+  color: #fcb529;
 }

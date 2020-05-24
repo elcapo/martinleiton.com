@@ -1,7 +1,7 @@
 /* Layout */
 
 body {
-  background-color: #fcb529;
+  background-color: white;
 }
 
 .bio-container {
@@ -28,7 +28,7 @@ body {
 }
 
 .inicio {
-  color: white;
+  color: #fcb529;
   padding: .2rem;
   position: absolute;
   top: 20px;
