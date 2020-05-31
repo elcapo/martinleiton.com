@@ -31,7 +31,7 @@
 
 .inicio {
   border-radius: 1rem;
-  background-color: #362e1e;
+  background-color: #1e1e1e;
   color: white;
   padding: .4rem;
   position: absolute;
@@ -47,7 +47,7 @@
 
 .canciones-title:hover,
 .jazz-title:hover {
-  background-color: #362e1e;
+  background-color: #1e1e1e;
 }
 
 .canciones-title a h1,
