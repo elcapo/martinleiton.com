@@ -31,7 +31,7 @@
 
 .inicio {
   border-radius: 1rem;
-  background-color: #1e1e1e;
+  background-color: #222;
   color: white;
   padding: .4rem;
   position: absolute;
@@ -47,27 +47,27 @@
 
 .canciones-title:hover,
 .jazz-title:hover {
-  background-color: #1e1e1e;
+  background-color: #aaa;
 }
 
-.canciones-title a h1,
-.jazz-title a h1 {
+a.canciones-title h1,
+a.jazz-title h1 {
   margin-top: 45vh;
   margin-bottom: 0;
   font-size: calc(2rem + 2vw);
 }
 
-.canciones-title a h3,
-.jazz-title a h3 {
+a.canciones-title h3,
+a.jazz-title h3 {
   font-size: calc(.4rem + 2vw);
 }
 
-.canciones-title a,
-.jazz-title a {
-  color: #222;
+a.canciones-title,
+a.jazz-title {
+  color: #111;
 }
 
-.canciones-title:hover a,
-.jazz-title:hover a {
+a.canciones-title:hover,
+a.jazz-title:hover {
   color: white;
 }
