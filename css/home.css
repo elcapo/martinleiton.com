@@ -1,5 +1,10 @@
 /* Layout */
 
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .menu {
   width: 100vw;
   height: 100vh;
@@ -10,12 +15,12 @@
 }
 
 .borde-por-la-izquierda {
-  border-left: 2px #222 solid;
+  border-left: 2px white dashed;
 }
 
 .canciones-title,
 .jazz-title {
-  background-color: #ccc;
+  background-color: black;
   text-align: center;
   height: 100vh;
   width: 100%;
@@ -24,26 +29,31 @@
 .canciones-title h3,
 .jazz-title h3 {
   padding-top: 2rem;
-  color: gray;
+  color: #ccc;
 }
 
 /* Opciones */
 
 .inicio {
-  border-radius: .2rem;
-  background-color: white;
-  border: 2px #222 solid;
   color: black;
-  padding: .4rem;
   position: absolute;
   top: 20px;
   right: 50%;
   transform: translateX(50%);
+  text-align: center;
 }
 
-.accion:hover .inicio {
-  background-color: black;
-  color: white;
+.inicio h2 {
+    padding-top: 2rem;
+}
+
+.inicio .accion {
+  padding: .4rem;
+  background-color: white;
+}
+
+.inicio .accion:hover {
+  color: #fcb529;
 }
 
 a.canciones-title h1,
@@ -60,12 +70,12 @@ a.jazz-title h3 {
 
 a.canciones-title,
 a.jazz-title {
-  color: #111;
+  color: white;
 }
 
 a.canciones-title:hover h1,
 a.jazz-title:hover h1,
 a.canciones-title:hover h3,
 a.jazz-title:hover h3 {
-  color: white;
+  color: #fcb529;
 }
