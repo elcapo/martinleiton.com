@@ -5,21 +5,14 @@ body {
 }
 
 .bio-container {
-  display: table;
   height: 100%;
-  position: absolute;
-  overflow: hidden;
   width: 100%;
-}
-
-.bio-aligner {
-  display: table-cell;
-  vertical-align: middle;
+  margin-top: 80px;
 }
 
 .bio {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 .bio p {

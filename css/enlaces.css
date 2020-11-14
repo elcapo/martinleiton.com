@@ -33,3 +33,7 @@ body {
 .enlaces li a:hover {
   color: #fcb529;
 }
+
+.actual {
+    color: grey;
+}
